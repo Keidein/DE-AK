@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `DE-AK`.`artist` (
   `born` VARCHAR(45) NULL,
   `died` VARCHAR(45) NULL,
   `nationality` VARCHAR(45) NULL,
-  `knownFor` VARCHAR(45) NULL,
+  `knownFor` VARCHAR(100) NULL,
   PRIMARY KEY (`artistID`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 1;
