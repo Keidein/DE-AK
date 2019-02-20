@@ -20,7 +20,7 @@ USE `DE-AK` ;
 CREATE TABLE IF NOT EXISTS `DE-AK`.`artist` (
   `artistID` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
-  `born` VARCHAR(45) NOT NULL,
+  `born` VARCHAR(45) NULL,
   `died` VARCHAR(45) NULL,
   `nationality` VARCHAR(45) NULL,
   `knownFor` VARCHAR(45) NULL,
